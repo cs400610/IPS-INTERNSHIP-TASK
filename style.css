@@ -1,0 +1,245 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top:0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 72%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.8;
+
+
+}
+#logo img{
+    margin: 5px 2px;
+    height: 50px;
+}
+
+#logo{
+    margin: 15px 20px 25px;
+
+}
+
+#navbar-text{
+    margin: 15px 80px 25px 5px;
+
+}
+#navbar-text h1:hover{
+    color: #a50756;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+
+#navbar-text h1{
+    color: rgb(44, 72, 38);
+   display: block;
+   padding: 3px 22px;
+   border-radius: 20px;
+   font-family: 'Baloo Bhai 2', cursive;
+   text-decoration:double;    
+
+}
+
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+#navbar ul li{
+    list-style: none ;
+    font-size: 1.2rem;
+}
+#navbar ul li a{
+    color: white;
+   display: block;
+   padding: 3px 22px;
+   border-radius: 20px;
+   
+   text-decoration:double;
+
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: rgb(38, 107, 209);
+    transition: all 0.5s ease;
+
+
+}
+/* Section Page Styling */
+#home{
+    display: flex;
+    flex-direction:column;
+    padding: 3px 180px;
+    opacity: 5;
+    height: 450px;
+    justify-content:center;
+    align-items: center;
+}
+  
+ #home::before{
+    content: "";
+    background: url('../image/bg1.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 585px;
+    top:0px;
+    left: 0px;
+    width:100%;
+    z-index: -1;
+    opacity: 0.75;
+ }
+
+ #home h1{
+    color: #000000;
+    text-align: center;
+    font-family: 'Baloo Thambi 2', cursive;
+
+}
+#home p{
+    color: #000000;
+    text-align: center;
+    text-decoration: wavy;
+    text-shadow: black;
+    font-size: 1.2rem;
+
+}
+.btn{
+    border: 2px solid white;
+    background-color: brown;
+    padding: 6px 20px;
+    color: white;
+    margin: 17px;
+    font-size: 1.1rem;
+    border-radius: 17px;
+    cursor: pointer;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+.btn:hover{
+    color: black;
+    background-color: rgb(38, 107, 209);
+    transition: all 0.5s ease;
+
+}
+
+/* Services container */
+#services-container{
+    margin-top: 40px;
+    background: steelblue;
+    width: 100%;
+    height:200px;
+}
+ 
+/* Table Styling */
+#services-container h1{
+    font-family: 'Baloo Thambi 2', cursive;
+    text-align: center;
+}
+#services-container h1:hover{
+    color: #12e7a7;
+    cursor: auto;
+    transition: all 0.5s ease;
+
+    
+
+}
+td{
+    width :350px;
+    height: 30px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1rem;
+}
+
+/* Hotel detail section */
+
+#hotel-detail{
+    display: flex;
+    flex-direction:column;
+    padding: 3px 180px;
+    opacity: 5;
+    margin: 10px 0;
+    height: 450px;
+    align-items: center;
+}
+
+#hotel-detail{
+    background: steelblue;
+    height: 200px;
+}
+#hotel-detail h1{
+    color: #000000;
+    text-align: center;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 2.5rem;
+
+}
+#hotel-detail h1:hover{
+    color: #12e7a7;
+    cursor: auto;
+    transition: all 0.5s ease;
+    
+
+}
+
+#hotel-detail p{
+    color: #460b0b;
+    text-align: center;
+    text-decoration: wavy;
+    text-shadow: black;
+    font-size: 1.2rem;
+
+}
+
+#client-section{
+    height: 355px;
+    
+}
+#headerclient {
+    color: #fffbfb;
+    text-align: center;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 2.5rem;
+    background: url('../image/bg4.jpg') no-repeat center center/cover;
+}
+#headerclient h1:hover{
+    color: #12e7a7;
+    cursor: auto;
+    transition: all 0.5s ease;
+
+    
+
+}
+#clients{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../image/bg4.jpg') no-repeat center center/cover;
+}
+.client-item{
+    padding: 30px;
+}
+.client-item:hover{
+    background: silver;
+    transition: all 0.5s ease;
+
+}
+#clients img{
+    height: 350px;
+
+}
