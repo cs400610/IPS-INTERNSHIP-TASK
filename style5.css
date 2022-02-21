@@ -1,8 +1,15 @@
+
 *{
     margin: 0;
     padding: 0;
+   
 }
-
+body{
+    width: 100%;
+    height: 600px;
+    background: url("../image/login.jpg")  no-repeat center center/cover;
+   
+}
 /* Navbar styling */
 #navbar{
     display: flex;
@@ -17,7 +24,7 @@
     position: absolute;
     top:0px;
     left: 0px;
-    height: 80%;
+    height: 72%;
     width:100%;
     z-index: -1;
     opacity: 0.8;
@@ -25,8 +32,8 @@
 
 }
 #logo img{
-    margin: 5px 0px;
-    height: 55px;
+    margin: 5px 2px;
+    height: 50px;
 }
 
 #logo{
@@ -46,10 +53,9 @@
 }
 
 #navbar-text h1{
-    color: rgb(237, 245, 235);
+    color: rgb(44, 72, 38);
    display: block;
    padding: 3px 22px;
-   font-size: x-large;
    border-radius: 20px;
    font-family: 'Baloo Bhai 2', cursive;
    text-decoration:double;    
@@ -70,7 +76,7 @@
 #navbar ul li a{
     color: white;
    display: block;
-   padding: 5px 22px;
+   padding: 3px 22px;
    border-radius: 20px;
    
    text-decoration:double;
@@ -83,67 +89,24 @@
 
 
 }
-
-.center{
-    text-align: center;
+h2{
+    display:inline-block;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-top:2px ;
+    color: black;
+    cursor: pointer;
+    height: 45pxpx;
+    padding: 4px 14px;
+    font-size: 1.5rem;
 }
 
-#form{
-    position: relative;
-}
-#form-box{
-    top: 50px;
-}
-
-h1{
-    color: rgb(2, 2, 2);
-   display: block;
-   text-align: center;
-   padding: 3px 22px;
-   font-size: 30px;
-   border-radius: 20px;
-   font-family: 'Baloo Bhai 2', cursive;
-   text-decoration:double;   
-   bottom: 50px; 
-
-}
-#form::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    z-index: -1;
-    opacity:0.8;
-    padding-bottom: 50px;
-    
-}
-body{
-    width: 100%;
-    height: 495px;
-    background: url('../image/admin.jpg') no-repeat center center/cover;
-}
-
-td{
+#form-box2 input{
     width :350px;
     height: 30px;
+}
+td{
     font-family: 'Baloo Bhai 2', cursive;
-    font-size: 1.3rem;
 }
-#form-box h1{
-    color: rgb(0, 0, 0);
-   display: block;
-   padding: 3px 22px;
-   font-size: 2.9rem;
-   border-radius: 20px;
-   font-family: 'Baloo Bhai 2', cursive;
-   text-decoration:double;   
-}
-#form-box1{
-    width: 200px;
-    margin-right: 550px;
-}
-
 #form-box2{
     display:inline-block;
     font-family: 'Baloo Bhai 2', cursive;
@@ -161,4 +124,5 @@ td{
     color: black;
     background-color: white;
 }
+
 

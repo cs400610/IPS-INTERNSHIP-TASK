@@ -1,11 +1,16 @@
+<?php
+    include("connection.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<title>ADMIN AUTHENTICATION</title>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact-Hotel Management</title>
-    <link href="css/style3.css" rel="stylesheet">
+    <title>WELCOME PANEL</title>
+    <link href="css/style5.css" rel="stylesheet">
     <link rel="favicon" type="img/icon">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -25,13 +30,12 @@
         <div id="navbar-text">
             <h1>Grand Hotel</h1>
         </div>
-
         <ul>
             <li class="item"><a href="home.php">Home</a></li>
             <li class="item"><a href="adminindex1.php">Room Update</a></li>
             <li class="item"><a href="booking.php">Bookings</a></li>
             <li class="item"><a href="roomdetails.php">Room Details</a></li>
-            <li class="item"><a href="contact.php">Help</a></li>
+            <li class="item"><a href="#contact">Help</a></li>
 
 
 
@@ -39,23 +43,10 @@
 </nav>
 
 
+<div class="container">
 
-
-<section id="services-container">
-    <div id="h1">
-<h1>Contact-Us</h1>
-<h3>Hotels</h3>
-<h3>Corporate Offices</h3>
-<h3>Global Sales</h3>
 </div>
-
-<div id="h2">
-<h1>Provide Your Valuable Feedback</h1>
-<h3>Hotel feedback and Collections</h3>
-<h3>Website Feedback and Suggestions</h3>
-</div>
-</section>
-
+<center><h2>Welcome Admin</h2></center>
 
     
 </body>

@@ -8,8 +8,8 @@ include("connection.php");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home-Hotel Management</title>
-    <link href="css/style.css" rel="stylesheet">
+    <title>ROOM UPDATE</title>
+    <link href="css/style4.css" rel="stylesheet">
     <link rel="favicon" type="img/icon">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -31,10 +31,10 @@ include("connection.php");
         </div>
 
         <ul>
-            <li class="item"><a href="#home">Home</a></li>
-            <li class="item"><a href="#services-container">Book My Stay</a></li>
-            <li class="item"><a href="#client-section">Our Clients</a></li>
-            <li class="item"><a href="#contact">Contact us</a></li>
+            <li class="item"><a href="home.php">Home</a></li>
+            <li class="item"><a href="adminindex1.php">Room Update</a></li>
+            <li class="item"><a href="booking.php">Bookings</a></li>
+            <li class="item"><a href="roomdetails.php">Room Details</a></li>
             <li class="item"><a href="#contact">Help</a></li>
 
 
@@ -43,11 +43,10 @@ include("connection.php");
 </nav>
 
 
-<!-- Registration Form for the user to fill the form -->
 <section id="form">
     <div id="form-box">
         <form action="adminindex1.php" method="post">
-        <table>
+        <center><table>
             <tr>
                 <td>Room No</td>
                 <td><input type="text" name="RoomNo" placeholder ="Enter Room No" title="Room No"></td>
@@ -68,7 +67,7 @@ include("connection.php");
             <td>
                 <input  id ="form-box2"type="submit" name="submit" value="Submit">
             </td>
-        </table>
+        </table></center>
         </form>
         <?php
 
@@ -80,7 +79,7 @@ include("connection.php");
                 $sql = "INSERT INTO room (RoomNo, RoomType, Price) VALUES('$RoomNo','$RoomType','$Price')";
                 if($connection->query($sql) === TRUE)
                 {
-                    echo "Data is Inserted";
+                    echo "Data Inserted Successfully";
                 }
                 else{
                     echo "Data is not interested";
